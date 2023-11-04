@@ -1,11 +1,13 @@
 ---
 layout: inner
-title: About
-permalink: /about/
+title: Privacy Policy
+permalink: /privacy_policy/
 ---
-## Markdown
+## Privacy Policy
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+No data of any kind is collected, shared, or stored.
+
+<!-- Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to another page](/index.html).
 
@@ -13,7 +15,7 @@ There should be whitespace between paragraphs.
 
 # Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This is a normal x following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 ## Header 2
 
@@ -202,4 +204,4 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
-{% endhighlight %}
+{% endhighlight %} -->
