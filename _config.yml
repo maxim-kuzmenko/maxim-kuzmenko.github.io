@@ -24,9 +24,12 @@ medium_username: 'blog.jamigibbs.com'
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 # theme: phantom # Uncomment once published to RubyGems
 plugins:
   - jekyll-paginate-v2
+  - kramdown-parser-gfm
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
