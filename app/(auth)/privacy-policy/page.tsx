@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Reset Password - Simple',
-  description: 'Page description',
+  title: 'KLOYTools - Privacy Policy',
+  description: 'Privacy Policy',
 }
 
 export default function ResetPassword() {

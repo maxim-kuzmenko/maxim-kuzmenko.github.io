@@ -36,9 +36,9 @@ export default function Header() {
           <nav className="hidden md:flex md:grow">
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-              <li>
+              {/* <li>
                 <Link href="https://apps.apple.com/ca/app/soundpaste/id6471012328" target="_blank" rel="noopener noreferrer" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Download</Link>
-              </li>
+              </li> */}
 
               {/* <a href="https://apps.apple.com/ca/app/soundpaste/id6471012328" target="_blank" rel="noopener noreferrer">
                   <img src="/images/download_on_app_store.png" alt="Download on App Store" className="mx-auto w-1/4" />
@@ -47,6 +47,12 @@ export default function Header() {
               <li>
                 <Link href="/privacy-policy" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Privacy Policy</Link>
               </li>
+
+              <li>
+                {/* <a href="href={`mailto:maxim.kuzmenko1@gmail.com`}" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contact</a> */}
+                <a href="mailto:maxim.kuzmenko1@gmail.com" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contact</a>
+              </li>
+
             </ul>
 
           </nav>

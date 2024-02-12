@@ -1,21 +1,15 @@
 export const metadata = {
-  title: 'Home - Simple',
-  description: 'Page description',
+  title: 'KLOYTools | Home',
+  description: 'KLOYTools | Home',
 }
 
-import Hero from '@/components/hero'
-import Features from '@/components/features'
-import FeaturesBlocks from '@/components/features-blocks'
-import Testimonials from '@/components/testimonials'
-import Newsletter from '@/components/newsletter'
+import Homepage from '@/components/homepage'
 
-export default function Home() {
+
+export default function Homepage2() {
   return (
     <>
-      <Hero />
-      <Features />
-      <FeaturesBlocks />
-      <Testimonials />
+      <Homepage />
     </>
   )
 }
