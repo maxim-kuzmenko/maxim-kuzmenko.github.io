@@ -20,11 +20,13 @@ export default function Homepage() {
             <br></br>
               Audio software to make your life easier.
             </p>
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
+              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center items-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                <h1 className="h3 mb-4">Products</h1>
+                <h2 className="text-3xl sm:text-4xl md:text-4xl mb-4">Products</h2>
                 <Link href="/soundpaste">
-                  <img src="/images/soundpaste_text_big.png" alt="Download on App Store" className="mx-auto w-1/4" />
+                  {/* <img src="/images/soundpaste_text_big.png" alt="Download on App Store" className="w-1/2 sm:w-auto"/>  */}
+                  <img src="/images/soundpaste_text_big.png" alt="SOUNDPASTE" className="w-full mx-auto sm:w-3/4 md:w-1/2 lg:w-1/3" />
+
                 </Link>
                 </div>
               </div>

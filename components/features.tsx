@@ -115,7 +115,7 @@ export default function Features() {
                   >
                     <div className="relative inline-flex flex-col">
                       {/* <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" /> */}
-                      <img src="/images/appatglance1.png" alt="AppAtGlance1" className="mx-auto w-2/3" />
+                      <img src="/images/appatglance1.png" alt="AppAtGlance1" className="mx-auto w-2/3 md:w-full lg:w-2/3" />
                       {/* <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
                   </Transition>
@@ -134,7 +134,7 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                    <img src="/images/appatglance2.png" alt="AppAtGlance2" className="mx-auto w-2/3" />
+                    <img src="/images/appatglance2.png" alt="AppAtGlance2" className="mx-auto w-2/3 md:w-full lg:w-2/3" />
                       {/* <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
                       <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
