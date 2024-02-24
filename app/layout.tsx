@@ -61,7 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Next.js</title>
+        <title>KLOYTools</title>
         {/* Ensure you have the meta tags and other necessary elements here */}
       </head>
       <body className={`${inter.variable} font-inter antialiased bg-white text-gray-900 tracking-tight`}>
