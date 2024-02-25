@@ -32,7 +32,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Record, copy and paste sound</h4>
-              <p className="text-gray-600 text-center">Just record then copy-paste sound directly to your audio/video editing software</p>
+              <p className="text-gray-600 text-center">Just record then copy-paste sound directly to your audio/video editing software.</p>
             </div>
 
             {/* 2nd item */}
@@ -48,7 +48,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Record with anything you want</h4>
-              <p className="text-gray-600 text-center">Record system sound, any audio/microphone input, or both</p>
+              <p className="text-gray-600 text-center">Record system sound, any audio/microphone input, or both.</p>
             </div>
 
             {/* 3rd item */}
@@ -65,7 +65,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">No drivers needed</h4>
-              <p className="text-gray-600 text-center">Record system sound without needing to install any audio drivers, such as Blackhole or Soundflower</p>
+              <p className="text-gray-600 text-center">Record system sound without needing to install any audio drivers, such as Blackhole or Soundflower.</p>
             </div>
 
             {/* 4th item */}
@@ -82,7 +82,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Lightweight and unintrusive</h4>
-              <p className="text-gray-600 text-center">SoundPaste works in the background as a menu bar app, allowing you to use it with minimal interaction</p>
+              <p className="text-gray-600 text-center">SoundPaste works in the background as a menu bar app, allowing you to use it with minimal interaction.</p>
             </div>
 
             {/* 5th item */}
@@ -98,7 +98,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Custom filenames</h4>
-              <p className="text-gray-600 text-center">Optionally, you can input a custom filename when finishing your recording</p>
+              <p className="text-gray-600 text-center">Optionally, you can input a custom filename when finishing your recording.</p>
             </div>
 
             {/* 6th item */}
@@ -113,7 +113,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Simple but powerful track view</h4>
-              <p className="text-gray-600 text-center">Play, navigate and drag-and-drop your recordings from the track view</p>
+              <p className="text-gray-600 text-center">Play, navigate and drag-and-drop your recordings from the track view.</p>
             </div>
 
           </div>
