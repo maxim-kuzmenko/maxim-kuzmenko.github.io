@@ -37,9 +37,20 @@ export default function AsSeenOn() {
 
             <br></br>
 
+            <div className="mx-auto grid grid-cols-2">
+
             <a href="https://www.musicradar.com/news/soundpaste-macos-copy-paste" target="_blank" rel="noopener noreferrer">
-                <img src="/images/musicradar.png" alt="Download on App Store" className="mx-auto w-2/6" />
+                <img src="/images/musicradar.png" alt="Download on App Store" className="mx-auto w-4/6" />
             </a>
+
+            {/* <br></br>
+            <br></br> */}
+
+            <a href="https://www.macosaudio.com/2024/02/kloytools-soundpaste-lets-you-copy-paste-audio/" target="_blank" rel="noopener noreferrer">
+                <img src="/images/macosaudio.png" alt="Download on App Store" className="mx-auto w-4/6" />
+            </a>
+            </div>
+
             <br></br>
             <br></br>
             <br></br>
@@ -49,10 +60,6 @@ export default function AsSeenOn() {
             {/* <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p> */}
           </div>
 
-          {/* Section content */}
-          <div className="md:grid md:grid-cols-12 md:gap-6">
-
-          </div>
 
         </div>
       </div>
