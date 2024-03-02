@@ -32,7 +32,7 @@ export default function Testimonials() {
           </div>
 
           {/* Items */}
-          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5">
+          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-4">
           {/* <div className="mx-auto grid gap-2 grid-cols-2 md:grid-cols-5"> */}
 
             {/* Item */}
@@ -62,15 +62,9 @@ export default function Testimonials() {
             <p className="text-sm mt-2">FL Studio</p>                         
             </div>
 
-            {/* Item */}
-            <div className="flex flex-col items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src="/images/program_logic.png" alt="logic" className="mx-auto w-4/6" style={{ width: '100px', height: 'auto' }} />              
-              <p className="text-sm mt-2">Logic</p>
-            </div>
-
           </div>
 
-          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5">
+          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-4">
 
             {/* Item */}
             <div className="flex flex-col items-center justify-center py-2 col-span-2 md:col-auto">
@@ -89,15 +83,21 @@ export default function Testimonials() {
 
             {/* Item */}
             <div className="flex flex-col items-center justify-center py-2 col-span-2 md:col-auto">
-            <img src="/images/program_cubase.png" alt="Cubase" className="mx-auto w-4/6" style={{ width: '100px', height: 'auto' }} />              
-            <p className="text-sm mt-2">Cubase</p>                         
+              <img src="/images/program_logic.png" alt="logic" className="mx-auto w-4/6" style={{ width: '100px', height: 'auto' }} />              
+              <p className="text-sm mt-2">Logic</p>
             </div>
 
             {/* Item */}
-            <div className="flex flex-col items-center justify-center py-2 col-span-2 md:col-auto">
+            {/* <div className="flex flex-col items-center justify-center py-2 col-span-2 md:col-auto">
+            <img src="/images/program_cubase.png" alt="Cubase" className="mx-auto w-4/6" style={{ width: '100px', height: 'auto' }} />              
+            <p className="text-sm mt-2">Cubase</p>                         
+            </div> */}
+
+            {/* Item */}
+            {/* <div className="flex flex-col items-center justify-center py-2 col-span-2 md:col-auto">
             <img src="/images/program_pro_tools.png" alt="Pro Tools" className="mx-auto w-4/6" style={{ width: '100px', height: 'auto' }} />              
             <p className="text-sm mt-2">Pro Tools</p>                         
-            </div>
+            </div> */}
 
             {/* Item */}
             <div className="flex flex-col items-center justify-center py-2 col-span-2 md:col-auto">
