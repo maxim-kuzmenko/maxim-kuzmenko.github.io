@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useLayoutEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
 import FeaturesBg from '@/public/images/features-bg.png'
@@ -16,15 +16,20 @@ export default function Features() {
     if (tabs.current && tabs.current.parentElement) tabs.current.parentElement.style.height = `${tabs.current.clientHeight}px`
   }
 
-  useEffect(() => {
-    heightFix()
-  }, []) 
+  // useEffect(() => {
+  //   heightFix()
+  // }, []) 
+
+  useLayoutEffect(() => {
+    heightFix();
+  }, [tab]); // Add this line in your "The app at a glance" section to recalculate when `tab` changes
+  
 
   return (
     <section className="relative">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
+      {/* <div className="absolute inset-0 bg-gray-100 pointer-events-none" aria-hidden="true" style={{ marginBottom: 'px' }}></div> */}
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
@@ -69,7 +74,7 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Settings screen</div>
-                    <div className="text-gray-600">Select your directory to read/write recordings, choose hotkeys to start/stop recording and several other settings.</div>
+                    <div className="text-gray-600">Select your directory to read/write recordings, choose file type and sample rate, choose hotkeys to start/stop recording and several other settings.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -115,7 +120,7 @@ export default function Features() {
                   >
                     <div className="relative inline-flex flex-col">
                       {/* <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" /> */}
-                      <img src="/images/appatglance1.png" alt="AppAtGlance1" className="mx-auto w-2/3 md:w-full lg:w-2/3" />
+                      <img src="/images/appatglance1.png" alt="AppAtGlance1" className="mx-auto w-2/3 md:w-full lg:w-2/3"  onLoad={heightFix}/>
                       {/* <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
                   </Transition>
@@ -134,7 +139,7 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                    <img src="/images/appatglance2.png" alt="AppAtGlance2" className="mx-auto w-2/3 md:w-full lg:w-2/3" />
+                    <img src="/images/appatglance2.png" alt="AppAtGlance2" className="mx-auto w-2/3 md:w-full lg:w-2/3"   onLoad={heightFix}/>
                       {/* <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
                       <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
