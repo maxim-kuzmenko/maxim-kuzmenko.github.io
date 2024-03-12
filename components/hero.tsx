@@ -1,7 +1,10 @@
 import VideoThumb from '@/public/images/hero-image.png'
 import ModalVideo from '@/components/modal-video'
 
+import Link from 'next/link'
+
 export default function Hero() {
+
   return (
     <section className="relative">
 
@@ -39,9 +42,21 @@ export default function Hero() {
             </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                <a href="https://apps.apple.com/ca/app/soundpaste/id6471012328" target="_blank" rel="noopener noreferrer">
-                  <img src="/images/download_on_app_store.png" alt="Download on App Store" className="mx-auto w-1/4" />
-                </a>
+              {/* <a href="https://apps.apple.com/ca/app/soundpaste/id6471012328" 
+                 id="appStoreLink" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                <img src="/images/download_on_app_store.png" 
+                     alt="Download on App Store" 
+                     className="mx-auto w-1/4" />
+              </a> */}
+
+                <Link href="/soundpaste/get">
+                  {/* <img src="/images/soundpaste_text_big.png" alt="Download on App Store" className="w-1/2 sm:w-auto"/>  */}
+                  <img src="/images/download_on_app_store.png" alt="download on app store" className="mx-auto w-1/3" />
+
+                </Link>
+
                 <br></br>
                 <p className="text-xl text-gray-600 mb-8">
                   Get the 7-day free trial, then buy with free lifetime updates for only $12.99.
