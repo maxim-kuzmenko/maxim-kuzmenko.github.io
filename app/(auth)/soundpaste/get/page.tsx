@@ -2,13 +2,13 @@
 
 import { useEffect } from 'react';
 
-// This is a page in Next.js, so it should be a default export.
 export default function GetSoundPastePage() {
   useEffect(() => {
     const timer = setTimeout(() => {
-      window.location.href = 'https://apps.apple.com/us/app/soundpaste/id6471012328';
-    }, 800);
+      window.location.replace('https://apps.apple.com/us/app/soundpaste/id6471012328');
+    }, 1500);
 
+    // Clean up the timer when the component unmounts
     return () => clearTimeout(timer);
   }, []);
 
