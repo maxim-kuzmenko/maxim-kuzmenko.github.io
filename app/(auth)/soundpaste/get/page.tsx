@@ -6,7 +6,7 @@ export default function GetSoundPastePage() {
   useEffect(() => {
     const timer = setTimeout(() => {
       window.location.replace('https://apps.apple.com/us/app/soundpaste/id6471012328');
-    }, 1500);
+    }, 800);
 
     // Clean up the timer when the component unmounts
     return () => clearTimeout(timer);

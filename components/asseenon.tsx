@@ -1,10 +1,10 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import { Transition } from '@headlessui/react'
-import Image from 'next/image'
-import FeaturesBg from '@/public/images/features-bg.png'
-import FeaturesElement from '@/public/images/features-element.png'
+// import { Transition } from '@headlessui/react'
+// import Image from 'next/image'
+// import FeaturesBg from '@/public/images/features-bg.png'
+// import FeaturesElement from '@/public/images/features-element.png'
 
 export default function AsSeenOn() {
   
