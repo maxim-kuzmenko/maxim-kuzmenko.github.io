@@ -24,9 +24,7 @@ export default function Homepage() {
                 <div>
                 <h2 className="text-3xl sm:text-4xl md:text-4xl mb-4">Products</h2>
                 <Link href="/soundpaste">
-                  {/* <img src="/images/soundpaste_text_big.png" alt="Download on App Store" className="w-1/2 sm:w-auto"/>  */}
-                  <img src="/images/soundpaste_text_big.png" alt="SOUNDPASTE" className="w-full mx-auto sm:w-3/4 md:w-1/2 lg:w-1/3" />
-
+                  <img src="/images/soundpaste_text_big.png" alt="SOUNDPASTE" className="mx-auto w-1/2 glow-on-hover" />
                 </Link>
                 </div>
               </div>

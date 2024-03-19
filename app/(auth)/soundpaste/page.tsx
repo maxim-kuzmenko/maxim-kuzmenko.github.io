@@ -9,6 +9,7 @@ import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
 // import Newsletter from '@/components/newsletter'
 import AsSeenOn from '@/components/asseenon'
+import SystemReqs from '@/components//systemreqs';
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <FeaturesBlocks />
       <Testimonials />
       <AsSeenOn />
+      <SystemReqs />
     </>
   )
 }

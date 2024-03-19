@@ -53,7 +53,7 @@ export default function Hero() {
 
                 <Link href="/soundpaste/get">
                   {/* <img src="/images/soundpaste_text_big.png" alt="Download on App Store" className="w-1/2 sm:w-auto"/>  */}
-                  <img src="/images/download_on_app_store.png" alt="download on app store" className="mx-auto w-1/3" />
+                  <img src="/images/download_on_app_store.png" alt="download on app store" className="app-store-badge mx-auto" />
 
                 </Link>
 

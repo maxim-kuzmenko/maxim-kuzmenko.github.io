@@ -16,3 +16,39 @@
     }
 }
 
+/* .glow-on-hover {
+    transition: box-shadow 0.3s ease-in-out;
+}
+  
+.glow-on-hover:hover {
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+    filter: brightness(120%) contrast(120%);
+    transform: scale(1.2); /* Scales the image to 120% of its original size */
+    /* transition: filter 0.3s ease-in-out;
+    filter: brightness(120%) drop-shadow(0 0 10px rgba(0, 0, 0, 0.7)); */
+  /* } */
+
+.glow-on-hover {
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out; /* Apply transitions for both states */
+    display: block; /* To prevent inline default space under the image */
+    max-width: 100%; /* To ensure responsiveness */
+    height: auto; /* Maintain aspect ratio during scaling */
+}
+
+.glow-on-hover:hover {
+    filter: brightness(120%) contrast(120%);
+    transform: scale(1.2); /* Scales the image to 120% of its original size on hover */
+}
+
+@media (min-width: 768px) {
+    .app-store-badge {
+      width: 33%; /* Or whatever size you prefer for desktop */
+    }
+  }
+  
+/* This will apply styles for screens smaller than 768px (typically mobile devices) */
+@media (max-width: 767px) {
+.app-store-badge {
+    width: 60%; /* Or whatever larger size you prefer for mobile */
+}
+}
