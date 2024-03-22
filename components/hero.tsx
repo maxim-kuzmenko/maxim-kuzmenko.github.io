@@ -32,13 +32,18 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-          <img src="/images/soundpaste_text_big.png" alt="SoundPaste Logo" className="mx-auto w-4/6" />
+          <img src="/images/soundpaste_text_big.png" alt="SoundPaste Logo" className="soundpaste-logo mx-auto" />
             {/* <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Make your website <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">SoundPaste</span></h1> */}
             <div className="max-w-3xl mx-auto">
             <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
-              Say goodbye to the tedious process of saving and opening sound files. <br />
-              With SoundPaste, just record then paste sound directly into <br />
-              your audio/video editing software.
+              <strong>Record and use what you hear faster than ever before.</strong> <br />
+            </p>
+
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
+
+              {/* Say goodbye to the tedious process of saving and opening sound files. <br /> */}
+              With SoundPaste, just record then paste sound directly into 
+              your audio/video editing software. Works out-of-the-box, no extra setup needed.
             </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
@@ -58,6 +63,8 @@ export default function Hero() {
                 </Link>
 
                 <br></br>
+
+
                 <p className="text-xl text-gray-600 mb-8">
                   Get the 7-day free trial, then buy with free lifetime updates for only $12.99.
                 </p>

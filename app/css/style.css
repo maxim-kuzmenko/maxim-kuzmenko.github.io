@@ -52,3 +52,22 @@
     width: 60%; /* Or whatever larger size you prefer for mobile */
 }
 }
+
+/* Mobile Styles */
+@media (max-width: 749px) {
+    .soundpaste-logo {
+        width: 100%; /* Full width on mobile */
+    }
+}
+
+/* Desktop Styles */
+
+
+@media (min-width: 750px) {
+    .soundpaste-logo {
+        max-width: 750px; /* Adjust this value to match the width of the content below */
+        width: 100%; /* This will make sure the image is responsive and does not exceed its container */
+        margin: 0 auto; /* This centers the logo if it's not as wide as its container */
+    }
+}
+  
