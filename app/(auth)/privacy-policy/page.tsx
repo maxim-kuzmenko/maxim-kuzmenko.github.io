@@ -30,6 +30,11 @@ export default function PrivacyPolicy() {
 <p className="text-gray-600">We are committed to ensuring that the collection and use of your data are transparent and secure. Our use of third-party analytics services is conducted with the utmost regard for privacy and in compliance with applicable laws and regulations.</p>
 <br></br>
 
+<h4 className="h4 mb-4">Third-Party Resources and Content</h4>
+<p className="text-gray-600">Users acknowledge that they assume full responsibility and all risks arising from their use of any third-party resources and content with any KLOYTools products. Users are solely responsible for ensuring that they have the necessary rights to any third-party content they record, access, or share using our products.</p>
+
+<br></br>
+
 <h4 className="h4 mb-4">Changes to This Privacy Policy</h4>
 <p className="text-gray-600">KLOYTools reserves the right to update this Privacy Policy at any time. Your continued use of our apps and website after any change in this Privacy Policy will constitute your acceptance of such change.</p>
 <br></br>
