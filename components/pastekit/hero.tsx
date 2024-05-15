@@ -61,10 +61,15 @@ export default function Hero() {
 
                 <br></br>
 
+                <Link href="/pastekit/get">
+                  {/* <img src="/images/soundpaste_text_big.png" alt="Download on App Store" className="w-1/2 sm:w-auto"/>  */}
+                  <img src="/images/download_on_app_store.png" alt="download on app store" className="app-store-badge mx-auto" />
 
-                <p className="text-xl text-gray-600 mb-8">
+                </Link>
+
+                {/* <p className="text-xl text-gray-600 mb-8">
                   Coming soon to the App Store.
-                </p>
+                </p> */}
                   {/* <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a> */}
                 </div>
                 {/* <div>

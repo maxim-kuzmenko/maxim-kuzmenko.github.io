@@ -2,10 +2,10 @@
 
 import { useEffect } from 'react';
 
-export default function GetSoundPastePage() {
+export default function GetPasteKitPage() {
   useEffect(() => {
     const timer = setTimeout(() => {
-      window.location.replace('https://apps.apple.com/us/app/soundpaste/id6471012328');
+      window.location.replace('https://apps.apple.com/us/app/pastekit/id6502492643');
     }, 800);
 
     // Clean up the timer when the component unmounts
@@ -23,7 +23,7 @@ export default function GetSoundPastePage() {
             <p className="text-xl text-gray-600">Please wait while you're redirected to the App Store.
             <br></br>
             If you don't get redirected after a few seconds, click{' '}
-            <a href="https://apps.apple.com/us/app/soundpaste/id6471012328" 
+            <a href="https://apps.apple.com/us/app/pastekit/id6502492643" 
              target="_blank" 
              rel="noopener noreferrer"
              className="text-blue-600 hover:underline">
