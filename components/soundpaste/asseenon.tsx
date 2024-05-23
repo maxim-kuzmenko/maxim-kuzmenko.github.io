@@ -59,8 +59,6 @@ export default function AsSeenOn() {
 
             {/* <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p> */}
           </div>
-
-
         </div>
       </div>
     </section>

@@ -18,7 +18,7 @@ export default function Homepage() {
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
                 <br></br>
-                Tools that will make your creations a breeze.
+                Simplifying Creation.
               </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center items-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>

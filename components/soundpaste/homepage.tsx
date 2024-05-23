@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Homepage() {
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen">
+    <section className="flex flex-col items-center justify-center min-h-screen background-pattern">
 
       {/* Illustration behind hero content */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -16,9 +16,9 @@ export default function Homepage() {
           <div className="text-center pb-12 md:pb-16">
             <img src="/images/soundpaste_kloytools.png" alt="KLOYTools Logo" className="mx-auto w-4/6" />
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
+              <p className="text-sm sm:text-lg md:text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
                 <br></br>
-                Tools that will make your creations a breeze.
+                Effortless media capture, instant creativity.
               </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center items-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
@@ -45,3 +45,5 @@ export default function Homepage() {
     </section>
   )
 }
+
+
