@@ -32,7 +32,7 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-          <img src="/images/pastekit_text_big2.png" alt="PasteKit Logo" className="w-2/5 mx-auto" />
+          <img src="/images/pastekit_text_big2.png" alt="PasteKit Logo" className="pastekit-logo mx-auto" />
 
         <br></br>
 

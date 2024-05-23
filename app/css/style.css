@@ -60,6 +60,12 @@
     }
 }
 
+@media (max-width: 749px) {
+    .pastekit-logo {
+        width: 80%; /* Full width on mobile */
+    }
+}
+
 /* Desktop Styles */
 
 
@@ -71,3 +77,11 @@
     }
 }
   
+
+@media (min-width: 750px) {
+    .pastekit-logo {
+        max-width: 600px; /* Adjust this value to match the width of the content below */
+        width: 80%; /* This will make sure the image is responsive and does not exceed its container */
+        margin: 0 auto; /* This centers the logo if it's not as wide as its container */
+    }
+}
