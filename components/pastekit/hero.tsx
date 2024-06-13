@@ -20,7 +20,7 @@ export default function Hero() {
 
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
-                <strong>The Ultimate Recorder for Creators.</strong> <br />
+                <strong>Record and use what you see faster than ever before.</strong> <br />
               </p>
 
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
