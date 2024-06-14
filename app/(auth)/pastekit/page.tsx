@@ -8,7 +8,7 @@ import Features from '@/components/pastekit/features'
 // import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/pastekit/testimonials'
 // // import Newsletter from '@/components/newsletter'
-// import AsSeenOn from '@/components/asseenon'
+import AsSeenOn from '@/components/pastekit/asseenon'
 import SystemReqs from '@/components/pastekit/systemreqs';
 
 
