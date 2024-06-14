@@ -104,3 +104,22 @@
     );
   }
   
+  .discounted-price {
+    color: grey;
+    text-decoration: line-through;
+    margin-right: 10px;
+  }
+  
+  .current-price {
+    color: #FF4500; /* Adjust the color to fit your design */
+    font-weight: bold;
+  }
+  
+  .offer-tag {
+    background-color: #FFD700; /* Golden color for visibility */
+    color: black;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    margin-left: 10px;
+  }

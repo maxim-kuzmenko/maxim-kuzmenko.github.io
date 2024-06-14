@@ -4,7 +4,7 @@ export const metadata = {
 }
 
 import Hero from '@/components/pastekit/hero'
-// import Features from '@/components/features'
+import Features from '@/components/pastekit/features'
 // import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/pastekit/testimonials'
 // // import Newsletter from '@/components/newsletter'
@@ -16,7 +16,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      {/* {/* <Features />
+      <Features />
+      {/* {/* 
       <FeaturesBlocks /> */}
       <Testimonials />
       {/* <AsSeenOn /> */}

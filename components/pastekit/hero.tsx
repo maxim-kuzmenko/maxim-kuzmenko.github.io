@@ -34,8 +34,11 @@ export default function Hero() {
                   </Link>
                   <br></br>
                   <p className="text-xl text-gray-600 mb-8">
-                    Get the 7-day free trial, then buy with free lifetime updates for only $14.99.
-                  </p>
+  Get the <span style={{ fontWeight: 'bold' }}>7-day free trial</span>, then buy with free lifetime updates for only: <br></br>
+  <span className="discounted-price">$24.99</span>
+  <span className="current-price">$14.99</span>
+  <span className="offer-tag">Limited Time Offer</span>
+</p>
                 </div>
               </div>
             </div>
@@ -51,7 +54,7 @@ export default function Hero() {
             videoWidth={1920}
             videoHeight={1080} />
         </div>
-        <div style={{ height: '20px' }}></div>
+        <div style={{ height: '30px' }}></div>
       </div>
     </section>
   )
