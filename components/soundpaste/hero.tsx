@@ -66,7 +66,7 @@ export default function Hero() {
 
 
                 <p className="text-xl text-gray-600 mb-8">
-                  Get the 7-day free trial, then buy with free lifetime updates for only $12.99.
+                  Get the 7-day trial, then buy with free lifetime updates for only $12.99.
                 </p>
                   {/* <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a> */}
                 </div>
