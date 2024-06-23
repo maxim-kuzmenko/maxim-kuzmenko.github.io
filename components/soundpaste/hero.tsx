@@ -61,12 +61,14 @@ export default function Hero() {
                   <img src="/images/download_on_app_store.png" alt="download on app store" className="app-store-badge mx-auto" />
 
                 </Link>
+                Available exclusively on the App Store.
 
+                <br></br>
                 <br></br>
 
 
                 <p className="text-xl text-gray-600 mb-8">
-                  Get the 7-day trial, then buy with free lifetime updates for only $12.99.
+                  Get the <span style={{ fontWeight: 'bold' }}>7-day trial</span>, then buy with free lifetime updates for only <span style={{ fontWeight: 'bold' }}>$12.99</span>.
                 </p>
                   {/* <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a> */}
                 </div>

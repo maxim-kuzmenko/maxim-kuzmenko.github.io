@@ -32,7 +32,10 @@ export default function Hero() {
                   <Link href="/pastekit/get">
                     <img src="/images/download_on_app_store.png" alt="download on app store" className="app-store-badge mx-auto" />
                   </Link>
+                  Available exclusively on the App Store.
                   <br></br>
+                  <br></br>
+
                   <p className="text-xl text-gray-600 mb-8">
   Get the <span style={{ fontWeight: 'bold' }}>7-day trial</span>, then buy with free lifetime updates for only: <br></br>
   <span className="discounted-price">$24.99</span>
