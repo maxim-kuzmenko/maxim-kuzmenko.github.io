@@ -3,6 +3,8 @@ export const metadata = {
   description: 'SoundPaste | Copy-Paste Sound',
 }
 
+import Head from 'next/head';
+
 import Hero from '@/components/soundpaste/hero'
 import Features from '@/components/soundpaste/features'
 import FeaturesBlocks from '@/components/soundpaste/features-blocks'
@@ -15,6 +17,11 @@ import SystemReqs from '@/components/soundpaste/systemreqs';
 export default function Home() {
   return (
     <>
+    <Head>
+        <title>SoundPaste | Copy-Paste Sound</title>
+        <meta name="description" content="SoundPaste | Copy-Paste Sound" />
+        <link rel="canonical" href="https://www.kloytools.com/soundpaste" />
+      </Head>
       <Hero />
       <Features />
       <FeaturesBlocks />
