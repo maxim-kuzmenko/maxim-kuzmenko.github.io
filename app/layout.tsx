@@ -1,9 +1,13 @@
 import './css/style.css';
 import { Inter } from 'next/font/google';
 import Header from '@/components/ui/header';
-// import Banner from '@/components/banner';
-import { Analytics } from '@vercel/analytics/react'; // Import the Analytics component
-import { GoogleTagManager } from '@next/third-parties/google'
+import { Analytics } from '@vercel/analytics/react';
+import { GoogleTagManager } from '@next/third-parties/google';
+import dynamic from 'next/dynamic';
+
+const ClientUTMProvider = dynamic(() => import('@/components/ClientUTMProvider'), {
+  ssr: false,
+});
 
 const inter = Inter({
   subsets: ['latin'],
@@ -31,7 +35,9 @@ export default function RootLayout({
       <body className={`${inter.variable} font-inter antialiased bg-white text-gray-900 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
-          {children}
+          <ClientUTMProvider>
+            {children}
+          </ClientUTMProvider>
           {/* <Banner /> */}
         </div>
         <GoogleTagManager gtmId="GTM-562TSK3C" />

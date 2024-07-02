@@ -6,7 +6,7 @@ export default function GetPasteKitPage() {
   useEffect(() => {
     const timer = setTimeout(() => {
       window.location.replace('https://apps.apple.com/us/app/pastekit/id6502492643');
-    }, 800);
+    }, 111800);//800);
 
     // Clean up the timer when the component unmounts
     return () => clearTimeout(timer);
