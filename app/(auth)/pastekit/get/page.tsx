@@ -4,9 +4,12 @@ import { useEffect } from 'react';
 
 export default function GetPasteKitPage() {
   useEffect(() => {
+
+    document.title = "Get PasteKit";
+
     const timer = setTimeout(() => {
       window.location.replace('https://apps.apple.com/us/app/pastekit/id6502492643');
-    }, 111800);//800);
+    }, 800);
 
     // Clean up the timer when the component unmounts
     return () => clearTimeout(timer);

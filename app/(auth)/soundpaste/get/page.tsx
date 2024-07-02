@@ -4,6 +4,9 @@ import { useEffect } from 'react';
 
 export default function GetSoundPastePage() {
   useEffect(() => {
+
+    document.title = "Get SoundPaste";
+
     const timer = setTimeout(() => {
       window.location.replace('https://apps.apple.com/us/app/soundpaste/id6471012328');
     }, 800);
