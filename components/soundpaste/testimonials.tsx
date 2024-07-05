@@ -124,7 +124,7 @@ export default function Testimonials() {
                   </svg>
                   <Image className="relative rounded-full" src={TestimonialImage} width={96} height={96} alt="Testimonial 01" />
                 </div>
-                <blockquote className="text-xl font-medium mb-4">
+                <blockquote className="text-lg mb-4">
                   “I’m a YouTuber that uses Final Cut to make comedy sketch videos. I always wanted a quick way to get system audio into my videos. SoundPaste makes this easy. It saves maybe a minute an edit, but after hundreds of edits the time saved really adds up. Worth it imo!“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Jreg</cite>

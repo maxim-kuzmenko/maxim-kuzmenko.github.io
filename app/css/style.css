@@ -123,3 +123,16 @@
     border-radius: 5px;
     margin-left: 10px;
   }
+
+  /* Default styles for desktop */
+.text-xl {
+    font-size: 1.25rem; /* This is just an example size */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 750px) {
+    .text-xl {
+      font-size: 1rem; /* Smaller font size for mobile devices */
+    }
+  }
+  

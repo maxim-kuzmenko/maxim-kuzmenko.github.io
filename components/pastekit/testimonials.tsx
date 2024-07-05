@@ -89,7 +89,7 @@ export default function Testimonials() {
                   </svg>
                   <Image className="relative rounded-full" src={TestimonialImage} width={96} height={96} alt="Testimonial 01" />
                 </div>
-                <blockquote className="text-xl font-medium mb-4">
+                <blockquote className="text-lg mb-4">
                   “Having to gather snippets of other media for a video project is always such a chore. Downloading entire video or sound files when I only need a few seconds of them takes a long time and wastes a lot of space.<br/>I like how PasteKit makes it easy to just grab the little moments you need, the moment you see them. A very useful tool indeed.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">J.J. McCullough</cite>

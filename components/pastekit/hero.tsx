@@ -24,7 +24,7 @@ export default function Hero() {
               </p>
 
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
-                With PasteKit, just record then paste video, images, sound directly into your audio/video editing software. Works out-of-the-box, no extra setup needed.
+                With PasteKit, just record then paste video, images and sound directly into your audio/video editing software. Works out-of-the-box, no extra setup needed.
               </p>
 
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
