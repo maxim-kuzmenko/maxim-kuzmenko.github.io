@@ -73,7 +73,7 @@ export default function Hero() {
 
 <div className="text-center">
   <p className="text-xl text-gray-600 mb-8">
-  Want SoundPaste but also need to copy-paste <span style={{ fontWeight: 'bold' }}>videos 📹</span> & <span style={{ fontWeight: 'bold' }}>images 🖼️</span> as well? Try <Link href="/pastekit" style={{ fontWeight: 'bold', color: '#1E90FF'}}>PasteKit</Link>.
+  Want SoundPaste but also need to copy-paste <span style={{ fontWeight: 'bold' }}>videos 📹</span> & <span style={{ fontWeight: 'bold' }}>images 🖼️</span> as well?<br></br>Try <Link href="/pastekit" style={{ fontWeight: 'bold', color: '#1E90FF'}}>PasteKit</Link>, currently on sale for a limited time for the <span style={{ fontWeight: 'bold' }}>same price</span> as SoundPaste.
   </p>
 </div>
 

@@ -39,7 +39,7 @@ export default function Hero() {
                   <p className="text-xl text-gray-600 mb-8">
   Get the <span style={{ fontWeight: 'bold' }}>7-day trial</span>, then buy with free lifetime updates for only: <br></br>
   <span className="discounted-price">$24.99</span>
-  <span className="current-price">$14.99</span>
+  <span className="current-price">$12.99</span>
   <span className="offer-tag">Limited Time Offer</span>
 </p>
                 </div>
