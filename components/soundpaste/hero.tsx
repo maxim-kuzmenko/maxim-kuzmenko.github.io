@@ -48,7 +48,7 @@ export default function Hero() {
 
 
                 <p className="text-xl text-gray-600 mb-8">
-                  Get the <span style={{ fontWeight: 'bold' }}>7-day trial</span>, then buy with free lifetime updates for only <span style={{ fontWeight: 'bold' }}>$12.99</span>.
+                  Get the <span style={{ fontWeight: 'bold' }}>7-day trial</span>, then buy with free lifetime updates for only <span style={{ fontWeight: 'bold' }}>$14.99</span>.
                 </p>
                 </div>
               </div>
